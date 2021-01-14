@@ -1,7 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Basic2 from "./components/Basic2";
-import BasicuseEffect from "./components/BasicuseEffect";
+// import Basic2 from "./components/Basic2";
+// import BasicuseEffect from "./components/BasicuseEffect";
+import TimerContainer from './components/TimerContainer'
+
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <Basic2 /> */}
-        <BasicuseEffect/>
+        {/* <BasicuseEffect/> */}
+        <TimerContainer />
       </header> 
     </div>
   );
