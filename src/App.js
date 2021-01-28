@@ -10,6 +10,7 @@ import BasicReducer from "./components/BasicReducer";
 import CompB from "./components/CompB";
 
 import { useReducer } from "react";
+import Memo from "./components/Memo";
 const initialState = 0;
 const reducer = (currentState, action) => {
   switch (action) {
@@ -37,8 +38,8 @@ function App() {
           {/* <ApiFetch /> */}
           {/* <B /> */}
           {/* <BasicReducer /> */}
-          Count {count}
-          <CompB />
+          {/* <CompB /> */}
+          <Memo />
 
         </header>
       </div>
